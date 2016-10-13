@@ -1,0 +1,4 @@
+# Paul 
+
+# To kill process recursively
+ps aux | grep pattern | awk '{print $2}' | xargs kill -9
